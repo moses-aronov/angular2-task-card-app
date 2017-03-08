@@ -1,0 +1,11 @@
+.card {
+    border-radius: 0;
+}
+.card,
+.card-footer {
+    background-color: #ffffa5;
+    border: none;
+}
+.card-footer{
+    text-align: right;
+}
