@@ -7,8 +7,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id,
     selector: 'my-app', //The name of the html element 
-    template: '<h1>Skeleton Projects</h1>'//HTML code that will layout the component
+    templateUrl: 'app.component.html'//HTML code that will layout the component
 })
 
 export class AppComponent { }
