@@ -6,7 +6,7 @@
 
 import { Component } from '@angular/core';
 
-import {Task } from './model/task'
+import { Task } from './model/task'
 
 @Component({
     moduleId: module.id,
