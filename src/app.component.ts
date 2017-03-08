@@ -6,10 +6,17 @@
 
 import { Component } from '@angular/core';
 
+import {Task } from './model/task'
+
 @Component({
     moduleId: module.id,
     selector: 'my-app', //The name of the html element 
     templateUrl: 'app.component.html'//HTML code that will layout the component
 })
 
-export class AppComponent { }
+export class AppComponent { 
+    task1 : Task = {
+        content: "Learn to code",
+        completed: false
+    }
+}
