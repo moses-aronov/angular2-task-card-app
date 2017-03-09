@@ -31,6 +31,7 @@ export class AppComponent {
     addTask(){
         let task = new Task(this.currentTask.content, this.currentTask.completed);
         this.tasks.push(task)
-
+        //Empty field upon submission
+        this.currentTask.content = null;
     }
 }
