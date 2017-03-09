@@ -25,4 +25,11 @@ export class AppComponent {
         //Empty field upon submission
         this.currentTask.content = null;
     }
+    
+    filterDeletedTasks():Task[]{
+        var tasks = this.tasks.filter(function(task: Task){
+            return !task.deleted
+        })
+        return tasks
+    }
 }
